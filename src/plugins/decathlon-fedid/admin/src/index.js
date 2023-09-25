@@ -1,6 +1,8 @@
 import PluginIcon from './components/PluginIcon';
 import pluginPkg from '../../package.json';
 import pluginId from './pluginId';
+import { prefixPluginTranslations } from '@strapi/helper-plugin';
+
 const name = pluginPkg.strapi.name;
 
 export default {
