@@ -1,0 +1,37 @@
+{
+  "name": "strapi-getting-started",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/design-system": "^1.11.0",
+    "@strapi/helper-plugin": "^4.13.7",
+    "@strapi/icons": "^1.11.0",
+    "@strapi/plugin-i18n": "4.13.7",
+    "@strapi/plugin-users-permissions": "4.13.7",
+    "@strapi/strapi": "4.13.7",
+    "axios": "^1.5.0",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.2.0",
+    "react-intl": "^6.4.7",
+    "react-router-dom": "^6.16.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "eb59ee29-d788-48f1-a972-3242fb07cfc3"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
