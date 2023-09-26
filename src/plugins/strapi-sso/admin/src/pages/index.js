@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { NotFound } from '@strapi/helper-plugin';
 import HomePage from './HomePage';
-const pluginId = "decathlon-fedid"
+const pluginId = "strapi-sso"
 const App = () => {
   return (
     <div>
